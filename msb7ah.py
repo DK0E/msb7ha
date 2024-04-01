@@ -1,6 +1,6 @@
 import tkinter as tk 
 
-count = 1 
+count = 0 
 
 
 def addNum():
@@ -10,7 +10,7 @@ def addNum():
 
 def reset():
     global count 
-    count = 1
+    count = 0
     counter_label.config(text="Counter: " + str(count))
 
 
